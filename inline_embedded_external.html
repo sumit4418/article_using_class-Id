@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between inline,Embedded and External CSS</title>
+</head>
+<body>
+    <table border="1px" style="border: 2px; color: darkgreen; background-color:lightcyan;" >
+        <tr >
+            <th colspan="3" style="color: deeppink;"><h1>Difference between inline,Embedded and External CSS</h1></th>
+        </tr>
+        <tr style="text-align: center; color: darkorange; font-size: larger;">
+            <th>Inline</th>
+            <th>Embedded</th>
+            <th>External</th>
+        </tr>
+        <tr style="color:darkolivegreen">
+            <td>An inline style rule is coded directly into an HTML tag within the flow of your source code, just as an HTML attribute is used.</td>
+            <td>Embedded styles are set in the HEAD section of your web page.</td>
+            <td>Embedded styles are set in the HEAD section of your web page.</td>
+        </tr>
+        <tr>
+            <td>They’re useful for quick and permanent changes but are less flexible than external and internal stylesheets, as each inline style you create must be edited separately if you’re making a design change.</td>
+            <td>The rules only apply to that page, but you can configure CSS classes and IDs to style multiple elements in the page code. Again, a single change to the CSS rule will apply to all tagged page elements.</td>
+            <td>Using external stylesheets, you can apply rules to multiple web pages</td>
+        </tr>
+        <tr>
+            <td> For Ex:- (h1 style="color:red;margin-left:20px;")</td>
+            <td>For Ex:-(style type="text/css"></style)</td>
+            <td>For Ex:- (link href="style.css" rel="stylesheet" type="text/css")</td>
+        </tr>
+        <tr>
+            <td>This CSS type is not really recommended, as each HTML tag needs to be styled individually. Managing your website may become too hard if you only use inline CSS</td>
+            <td>This CSS style is an effective method of styling a single page. However, using this style for multiple pages is time-consuming as you need to put CSS rules to every page of your website.</td>
+            <td>This CSS type is a more efficient method, especially for styling a large website. By editing one .css file, you can change your entire site at once.</td>
+        </tr>
+        <tr>
+            <td>inline CSS in HTML can be useful in some situations. For example, in cases where you don’t have access to CSS files or need to apply styles for a single element only.</td>
+            <td>Since you’ll only add the code within the same HTML file, you don’t need to upload multiple files.</td>
+            <td>Since the CSS code is in a separate document, your HTML files will have a cleaner structure and are smaller in size.</td>
+        </tr>
+        <tr>
+            <td>You don’t need to create and upload a separate document as in the external style.</td>
+            <td>You can use class and ID selectors in this style sheet.</td>
+            <td>You can use the same .css file for multiple pages.</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

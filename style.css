@@ -1,0 +1,39 @@
+.header{
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid gray;
+    image-resolution: 50%;
+    
+}
+.nav ul{
+    list-style: none;
+    background: lightblue;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav li{
+    display: inline-block;
+    font-size: larger;
+}
+.nav a{
+    text-decoration: none;
+    color:#fff;
+    width: 100px;
+    display:inline-flex;
+    padding:10px 10px;
+}
+.para p{
+    font-size: 30px;
+    color: blue;
+}
+.para img{
+    position: initial;
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+}
+.para .h4{
+    display: flex;
+    padding-top: 20px;
+}
